@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="html/contactanos.html">¡Dona aqui!</a>
@@ -29,34 +29,37 @@
       </nav>
     </header>
       <main class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/7890.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/4567.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/1234.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
           </div>
-        <div class="row">
-            <p class="col-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio pariatur provident magnam. Consequatur culpa sapiente sequi fugit eius praesentium deleniti est, ex, assumenda id suscipit ipsa dolorum aliquam magnam exercitationem.
-            </p>
-            <p class="col-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis adipisci aliquam eveniet vel dolore tempora, non ratione, libero esse laborum fugit autem maxime quibusdam voluptates consectetur quas neque inventore?
-            </p>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+          
+          <label for="basic-url" class="form-label">Su pagina web (Opcional)</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">https://</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Monto de donacion">
+            <span class="input-group-text">.00</span>
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nombre en DNI" aria-label="Username">
+            <span class="input-group-text">Dni</span>
+            <input type="text" class="form-control" placeholder="Ej: 12.123.123" aria-label="Server">
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">Comentarios</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
           </div>
       </main>
       <footer class=" text-black">
@@ -78,8 +81,6 @@
               <a href="html/contactanos.html"class="text-reset">¡Dona aqui!</a>
             </li>
           </ul>
-  
-          <!-- menu 2   -->
           <ul class="col-4 list-unstyled">
   
             <li class="fw-bold text-uppercase">
@@ -97,7 +98,6 @@
               direccion 1231
             </li> 
           </ul>
-          <!-- menu redes-->
           <ul class="col-4 list-unstyled">
             <li class="fw-bold text-uppercase">
               redes sociales
